@@ -36,20 +36,9 @@
         | FN:| n= 3932 (10.89%)  |
         | TP:| n= 15865 (43.94%) |
 
-       - Accuracy and Classification Report 
-       - Key: (0) = Not Late, (1) = Late
-    
-       - Accuracy: 0.8556392643474408
-       - Classification Report:
-      
-                      precision    recall  f1-score   support
-                   0       0.79      0.92      0.85     16307
-                   1       0.93      0.80      0.86     19797
-         
-                accuracy                          0.86     36104
-                macro avg      0.86      0.86      0.86     36104
-             weighted avg      0.87      0.86      0.86     36104
+![Late Delivery Risk model report](latedelivery_report.jpg)
 
+      
     - Fraudulent Order Model - 
 
 - Data Source: https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
