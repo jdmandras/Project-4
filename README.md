@@ -27,12 +27,12 @@
         | True Negatives (TN):| Model correctly predicts a delivery as 'Not Late'. |
         | False Positives (FP):| Predicted as 'Late', but are actually 'Not Late'. |
         | False Negatives (FN):| Predicted as 'Not Late', but are actually 'Late'. |
-        | True Positives (TP):| Model correctly predicts a delivery as 'Late'. |
- 
-        TN: n=15027 (41.62%)
-        FP: n=1280 (3.55%)
-        FN: n=3932 (10.89%)
-        TP: n=15865 (43.94%)
+        | True Positives (TP):| Model correctly predicts a delivery as 'Late'.     |
+        |---------------------|----------------------------------------------------|
+        | TN:| n= 15027 (41.62%) |
+        | FP:| n= 1280 (3.55%)   |
+        | FN:| n= 3932 (10.89%)  |
+        | TP:| n= 15865 (43.94%) |
 
         Accuracy and Classification Report
         Key: (0) = Not Late, (1) = Late
