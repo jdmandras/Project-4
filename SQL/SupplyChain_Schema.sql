@@ -5,14 +5,14 @@
 
 CREATE TABLE "customers" (
     "Customer_Id" float(5)   NOT NULL,
-    "Customer_City" float(20)   NOT NULL,
-    "Customer_Country" float(11)   NOT NULL,
-    "Customer_Fname" float(11)   NOT NULL,
-    "Customer_Lname" float(12)   NOT NULL,
-    "Customer_Segment" float(11)   NOT NULL,
-    "Customer_State" float(5)   NOT NULL,
-    "Customer_Street" float(33)   NOT NULL,
-    "Customer_Zipcode" float(5)   NOT NULL,
+    "Customer_City" varchar(20)   NOT NULL,
+    "Customer_Country" varchar(11)   NOT NULL,
+    "Customer_Fname" varchar(11)   NOT NULL,
+    "Customer_Lname" varchar(12),
+    "Customer_Segment" varchar(11)   NOT NULL,
+    "Customer_State" varchar(5)   NOT NULL,
+    "Customer_Street" varchar(33)   NOT NULL,
+    "Customer_Zipcode" float(5),
     "Latitude" float(12)   NOT NULL,
     "Longitude" float(12)   NOT NULL,
     CONSTRAINT "pk_customers" PRIMARY KEY (
@@ -32,7 +32,7 @@ CREATE TABLE "orders" (
     "Shipping_Mode" varchar(14)   NOT NULL,
     "Market" varchar(12)   NOT NULL,
     "Order_City" varchar(35)   NOT NULL,
-    "Orde_State" varchar(36)   NOT NULL,
+    "Order_State" varchar(36)   NOT NULL,
     "Order_Region" varchar(15)   NOT NULL,
     "Order_Country" varchar(31)   NOT NULL,
     "order_date_DateOrders" timestamp   NOT NULL,
@@ -59,7 +59,7 @@ CREATE TABLE "product_categories" (
 
 CREATE TABLE "product" (
     "Product_Card_Id" float(4)   NOT NULL,
-    "Product_Image" varchar(94)   NOT NULL,
+    "Product_Image" varchar(96)   NOT NULL,
     "Product_Name" varchar(45)   NOT NULL,
     "Category_Id" float(2)   NOT NULL,
     "Department_Id" float(2)   NOT NULL,
