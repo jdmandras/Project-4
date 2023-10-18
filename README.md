@@ -24,10 +24,10 @@
     - Sales Prediction Model - 
     - Late Delivery Risk Model -
       
-        True Negatives (TN): Model correctly predicts a delivery as 'Not Late'. 
-        False Positives (FP): Predicted as 'Late', but are actually 'Not Late'. 
-        False Negatives (FN): Predicted as 'Not Late', but are actually 'Late'. 
-        True Positives (TP): Model correctly predicts a delivery as 'Late'.     
+        - True Negatives (TN): Model correctly predicts a delivery as 'Not Late'. 
+        - False Positives (FP): Predicted as 'Late', but are actually 'Not Late'. 
+        - False Negatives (FN): Predicted as 'Not Late', but are actually 'Late'. 
+        - True Positives (TP): Model correctly predicts a delivery as 'Late'.     
       
         | Quartile| Results|
         |---------------------|----------------------------------------------------|
@@ -38,7 +38,7 @@
 
         Accuracy and Classification Report
         Key: (0) = Not Late, (1) = Late
-        -----------------------------
+    
         Accuracy: 0.8556392643474408
         Classification Report:
                       precision    recall  f1-score   support
