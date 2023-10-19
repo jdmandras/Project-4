@@ -22,6 +22,7 @@
 
 - Results:
     - Sales Prediction Model - 
+<<<<<<< HEAD
     - Late Delivery Risk Model - 
         True Negatives (TN): Model correctly predicts a delivery as 'Not Late'.
         False Positives (FP): Predicted as 'Late', but are actually 'Not Late' .
@@ -51,3 +52,26 @@
 
 - Data Source: https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
 For more info, visit: https://data.mendeley.com/datasets/8gx2fvg2k6/5
+=======
+    - Late Delivery Risk Model -
+      
+        - True Negatives (TN): Model correctly predicts a delivery as 'Not Late'. 
+        - False Positives (FP): Predicted as 'Late', but are actually 'Not Late'. 
+        - False Negatives (FN): Predicted as 'Not Late', but are actually 'Late'. 
+        - True Positives (TP): Model correctly predicts a delivery as 'Late'.     
+      
+        | Quartile| Results|
+        |---------------------|----------------------------------------------------|
+        | TN:| n= 15027 (41.62%) |
+        | FP:| n= 1280 (3.55%)   |
+        | FN:| n= 3932 (10.89%)  |
+        | TP:| n= 15865 (43.94%) |
+
+![Late Delivery Risk model report](latedelivery_report.jpg)
+
+      
+    - Fraudulent Order Model - 
+
+- Data Source: https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
+For more info, visit: https://data.mendeley.com/datasets/8gx2fvg2k6/5
+>>>>>>> cbfea59133e61a2e923033d54eff39e4ad598b06
