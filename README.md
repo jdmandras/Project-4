@@ -28,7 +28,7 @@
 
 
 - Results:
-    - Sales Prediction Model - 
+    - Sales Prediction Model - Multiple Linear Regression R-sq: 0.94 MSE: 741.46 & MAE: 575.72
     - Late Delivery Risk Model -
       
         - True Negatives (TN): Model correctly predicts a delivery as 'Not Late'. 
@@ -46,7 +46,8 @@
         ![Late Delivery Risk model report](latedelivery_report.jpg)
 
       
-    - Fraudulent Order Model - 
+    - Fraudulent Order Model - ![image](https://github.com/jdmandras/Project-4/assets/128310249/2d13c0a2-e7d3-4fdf-8134-d16aea680078)
+
 
 - Data Source: https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
 For more info, visit: https://data.mendeley.com/datasets/8gx2fvg2k6/5
